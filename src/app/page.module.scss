@@ -1,0 +1,50 @@
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+
+	h1 {
+		color: #f2f2f7;
+		font-size: 8rem;
+		margin: 0;
+		margin-bottom: 24px;
+	}
+
+	h2 {
+		font-size: 2.4rem;
+		margin: 0;
+		color: #8e8e93;
+	}
+
+	button {
+		background: transparent;
+		border: 2px solid transparent;
+		text-align: center;
+		font-size: 1.2rem;
+		border-radius: 16px;
+		padding: 8px 20px;
+		cursor: pointer;
+		margin: 0 10px;
+		transition: background-color 0.3s ease-in-out;
+
+		&.minus {
+			background-color: #fa4c44;
+			color: #f2f2f7;
+
+			&:hover {
+				background-color: #fa6c66;
+			}
+		}
+
+		&.plus {
+			background-color: #3cd552;
+			color: #f2f2f7;
+
+			&:hover {
+				background-color: #3bd960;
+			}
+		}
+	}
+}
